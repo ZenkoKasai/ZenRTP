@@ -1,0 +1,60 @@
+# ZenRTP - Config File
+# General plugin settings.
+# This is currently an example skeleton of config settings. Nothing here is implied to be working.
+
+# Default random teleport distance settings
+teleport:
+  world:
+    min_distance: 500
+    max_distance: 9950
+    cave_search_max_y: 62 #Only valid in a standard overworld default
+    near_search_radius: 200
+
+# Teleport behavior
+teleport_behavior:
+  check_for_safe_location: true #Set to false if you're a psycopath
+  avoid_liquids: true
+  avoid_fall_damage: true #Breaks rtp void when set to false
+  async_chunk_loading: true
+
+# Cooldowns (in seconds)
+cooldowns:
+  default: 15
+  cave: 60
+  world: 60
+  resource: 60
+  void: 30
+
+# Effects and particles
+effects:
+  enable_fancy_effects: true
+  enable_trail_particles: false
+
+# Worlds eligible for RTP
+worlds:
+  enabled:
+    - world
+    - world_nether
+    - world_the_end
+    - world_resource
+    - world_nether_resource
+    - world_the_end_resource
+
+# Economy settings
+economy:
+  enabled: false
+  teleport_cost:
+    world: 0
+    world_nether: 5.0
+    world_the_end: 10.0
+    world_resource: 20.0
+    world_nether_resource: 30.0
+    world_the_end_resource: 50.0
+
+# Metrics
+metrics:
+  enabled: true
+
+# Debugging
+debug:
+  enabled: false

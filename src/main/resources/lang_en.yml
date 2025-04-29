@@ -1,0 +1,23 @@
+# ZencodeRTP - Language File
+# Customize all plugin messages here.
+
+prefix: "&b&l[RTP] &f"
+
+messages:
+  no_permission: "%prefix% &cYou do not have permission to use this command."
+  cooldown_active: "%prefix% &cPlease wait before using this command again."
+  teleport_success: "%prefix% You have been randomly teleported!"
+  teleport_fancy_success: "%prefix% You have been randomly teleported fancy style!"
+  teleport_near_success: "%prefix% You have been randomly teleported nearby!"
+  teleport_cave_success: "%prefix% You have been randomly teleported into a cave!"
+  teleport_void_success: "%prefix% You decided enough was enough..."
+  invalid_world: "%prefix% &cInvalid world. Please try again."
+  safe_location_failed: "%prefix% &cFailed to find a safe location. Please try again."
+  teleport_cost_paid: "%prefix% &aPaid %amount% to teleport."
+  teleport_cost_failed: "%prefix% &cYou do not have enough money to teleport!"
+  help_header: "&b&lTeleport Commands:"
+  help_rtp: "&3&l/rtp&b: Random teleport"
+  help_rtpnear: "&3&l/rtpnear&b: Teleport nearby"
+  help_rtpcave: "&3&l/rtpcave&b: Teleport into a cave"
+  help_rtpworld: "&3&l/rtpworld <world>&b: Teleport to a specific world"
+  help_rtpvoid: "&3&l/rtpvoid&b: Teleport to the void (fun!)"
