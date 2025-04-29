@@ -1,0 +1,44 @@
+name: ZenRTP
+main: me.zenko.zencode.rtp
+version: 0.1.0
+api-version: 1.20
+author: ZenkoKasai
+description: A work-in-progress random teleport plugin based on MyCommand designs.
+website: https://github.com/ZenkoKasai/ZenRTP
+
+commands:
+  rtp:
+    description: Random teleport commands
+    usage: /<command> [subcommand]
+    permission: ZenRTP.Command.RTP
+    aliases:
+      - zrtp
+
+permissions:
+  ZenRTP.Command.RTP:
+    description: Allows basic /rtp usage
+    default: true
+  ZenRTP.Command.RTP.Fancy:
+    description: Allows /rtp fancy teleport
+    default: false
+  ZenRTP.Command.RTP.Near:
+    description: Allows /rtp near teleport
+    default: false
+  ZenRTP.Command.RTP.Cave:
+    description: Allows /rtp cave teleport
+    default: false
+  ZenRTP.Command.RTP.World:
+    description: Allows /rtp world <world> teleport
+    default: false
+  ZenRTP.Command.RTP.Resource:
+    description: Allows /rtp resource <world> teleport
+    default: false
+  ZenRTP.Command.RTP.Void:
+    description: Allows /rtp void teleport
+    default: false
+  ZenRTP.Command.RTP.Help:
+    description: Allows /rtp help
+    default: true
+  ZenRTP.Command.Admin:
+    description: Allows for /rtp admin commands
+    default: false
