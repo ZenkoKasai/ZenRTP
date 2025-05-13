@@ -14,7 +14,6 @@ ZenRTP is designed to provide players with a rich random teleport experience inc
 ## Features (Planned and In Progress)
 - [x] Basic /rtp command with cooldown
 - [ ] Fancy teleport effects (particles, sounds)
-- [ ] Spreadplayers-based teleport system
 - [ ] Configurable distances and teleport settings
 - [ ] Tab completion for world selection
 - [ ] Comprehensive multi-world support
@@ -54,6 +53,7 @@ This plugin is actively being converted from a MyCommand system to a full standa
 
 ## Credits
 - **Original Design and Concept:** ZenkoKasai
+- **Inspiration for this System:** JoshTiger
 
 ---
 
